@@ -1,0 +1,22 @@
+Тест-кейс 3: Получение токена с неверным полем pwd.
+
+Цель: убедиться, что при отправке некорректного POST запроса, с использование неверного pwd, от сервера приходит ответ с ошибкой.
+
+Шаги: 
+1. Отправить некорректный POST запрос, с использование неверного pwd на /get-token.
+Например,
+
+{
+  "username": "validusername",
+  "pwd": "notvalidpassword",
+  "email": "valid@example.com"
+}
+2. 	Получена ошибка от сервера.
+
+Ожидаемый результат: Ответ от сервера вида:
+
+{
+    "timestamp": "16-09-2024 10:34:46",
+    "status": "ERROR",
+    "message": "There is no user with such username and email combination, or the password is wrong"
+}
