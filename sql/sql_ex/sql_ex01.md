@@ -7,6 +7,7 @@
 `SELECT model, speed, hd FROM PC WHERE price < 500`
 ___
 #### Краткая информация о базе данных "Компьютерная фирма":
+
 ![computers](https://github.com/user-attachments/assets/e3e2bc5d-ea98-466e-b220-00c57830618d)
 
 **Схема БД состоит из четырех таблиц:**
