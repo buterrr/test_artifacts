@@ -9,15 +9,15 @@ ___
 #### Краткая информация о базе данных "Компьютерная фирма":
 ![computers](https://github.com/user-attachments/assets/e3e2bc5d-ea98-466e-b220-00c57830618d)
 
-Схема БД состоит из четырех таблиц:
+**Схема БД состоит из четырех таблиц:**
 
-Product(maker, model, type)
+* Product(maker, model, type)
 
-PC(code, model, speed, ram, hd, cd, price)
+* PC(code, model, speed, ram, hd, cd, price)
 
-Laptop(code, model, speed, ram, hd, price, screen)
+* Laptop(code, model, speed, ram, hd, price, screen)
 
-Printer(code, model, color, type, price)
+* Printer(code, model, color, type, price)
 
 Таблица Product представляет производителя (maker), номер модели (model) и тип ('PC' - ПК, 'Laptop' - ПК-блокнот или 'Printer' - принтер).
 Предполагается, что номера моделей в таблице Product уникальны для всех производителей и типов продуктов. В таблице PC для каждого ПК, 
