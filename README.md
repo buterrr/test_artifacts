@@ -1,4 +1,4 @@
-###Упражнения с сайта sql-ex.ru###
+### Упражнения с сайта sql-ex.ru
 https://github.com/buterrr/test_artifacts/tree/main/sql/sql_ex
 
 ### Тест-кейсы на главную страницу Яндекс(ya.ru)
