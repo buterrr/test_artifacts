@@ -1,0 +1,19 @@
+Тест-кейс 6: Регистрация пользователя с полем pwd содержащим более 500 символов.
+
+Цель: убедиться, что при регистрации пользователя c полем pwd содержащим более 500 символов,
+от сервера приходит ответ с ошибкой и описанием, что поле pwd может содержать от 5 до 500 символов.
+
+Шаги:
+1. Отправить POST запрос c полем pwd содержащим более 500 символов.
+
+Например,
+
+{
+  "username": "validusername",
+  "pwd": "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+  "email": "invalidemail"
+}
+
+Ожидаемый результат: 
+
+от сервера приходит ответ с ошибкой и описанием, что поле pwd может содержать от 5 до 500 символов.
