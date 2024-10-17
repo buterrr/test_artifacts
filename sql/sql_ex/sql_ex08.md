@@ -10,7 +10,7 @@ WHERE type = 'PC'
 EXCEPT
 SELECT maker
 FROM Product
-WHERE type = 'Laptop''
+WHERE type = 'Laptop'
 ```
 ___
 #### Краткая информация о базе данных "Компьютерная фирма":
