@@ -14,5 +14,6 @@ regex101@mail.com/
 * ***http://example.org/path?param=value***  
 
 #### Регулярное выражение:
-
+```
 https?:\/\/[a-zA-Z0-9.-]+\.[a-zA-z]{2,}(?:\/[^\s]*)?
+```
