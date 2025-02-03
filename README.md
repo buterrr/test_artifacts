@@ -1,6 +1,12 @@
 ### Упражнения с сайта sql-ex.ru
 https://github.com/buterrr/test_artifacts/tree/main/sql/sql_ex
 ___
+### Регулярные выражения
+https://github.com/buterrr/test_artifacts/tree/main/regexp
+___
+### Тест-кейсы на tutu.ru
+https://github.com/buterrr/test_artifacts/tree/main/tutu
+___
 ### Тест-кейсы на методы приложения TestMe-FixMe
 
 https://github.com/buterrr/test_artifacts/tree/main/test-me-fix-me
