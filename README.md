@@ -8,6 +8,7 @@ ___
 https://github.com/buterrr/test_artifacts/tree/main/tutu
 ___
 ### Тест-кейсы на методы приложения TestMe-FixMe
+(https://github.com/firstsarcasm/TestMe-FixMe)  
 
 https://github.com/buterrr/test_artifacts/tree/main/test-me-fix-me
 ___
